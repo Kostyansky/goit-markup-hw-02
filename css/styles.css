@@ -13,9 +13,8 @@ a {
 }
 
 .header-link {
-    font-family: "Raleway" sans-serif;
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -40,6 +39,10 @@ a {
     color: #404bbf
 }
 
+.header-item-link:focus {
+    color: #404bbf;
+}
+
 .header-link-address {
     font-style: normal;
     color: var(--SLATE, #434455);
@@ -47,6 +50,14 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-link-address:hover {
+    color: #404bbf;
+}
+
+.header-link-address:focus {
+    color: #404bbf;
 }
 
 .main-title-list {
@@ -65,11 +76,10 @@ a {
 }
 
 .main-button {
-    font-family: "Roboto", sans-serif;
     cursor: pointer;
     background: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -79,6 +89,10 @@ a {
 .main-button:hover {
     color: #404BBF;
     background: #404BBF;
+}
+
+.main-button:focus {
+    color: #404BBF;
 }
 
 .main-subtitle-advantage {
@@ -167,9 +181,8 @@ a {
 }
 
 .footer-link {
-    font-family: "Raleway", sans-serif;
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
