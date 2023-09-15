@@ -82,8 +82,8 @@ a {
 }
 
 .main-button {
-    cursor: pointer;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
@@ -100,7 +100,8 @@ a {
 }
 
 .main-button:hover {
-    color: #404BBF
+    color: #404BBF;
+    background: #404BBF;
 }
 
 .main-subtitle-advantage {
@@ -195,6 +196,7 @@ a {
 }
 
 .footer-link {
+    font-family: "Raleway", sans-serif;
     color: var(--IRIS, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
