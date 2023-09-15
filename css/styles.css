@@ -44,12 +44,15 @@ a {
 }
 
 .header-link-address {
-    font-style: normal;
     color: var(--SLATE, #434455);
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-link-address {
+    font-style: normal;
 }
 
 .header-link-address:hover {
@@ -93,6 +96,7 @@ a {
 
 .main-button:focus {
     color: #404BBF;
+    background: #404BBF;
 }
 
 .main-subtitle-advantage {
