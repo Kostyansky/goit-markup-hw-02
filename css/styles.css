@@ -43,16 +43,16 @@ a {
     color: #404bbf;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-link-address {
     color: var(--SLATE, #434455);
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.header-link-address {
-    font-style: normal;
 }
 
 .header-link-address:hover {
