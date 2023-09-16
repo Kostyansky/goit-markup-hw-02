@@ -87,12 +87,10 @@ a {
 }
 
 .main-button:hover {
-    color: #404BBF;
     background: #404BBF;
 }
 
 .main-button:focus {
-    color: #404BBF;
     background: #404BBF;
 }
 
